@@ -9,7 +9,7 @@ dlg = Desktop(backend="uia").Calculator
 dlg.type_keys('3')
 # Add some delay between each key stroke
 time.sleep(1)
-dlg.type_keys('/')
+dlg.type_keys('*')
 time.sleep(1)
 dlg.type_keys('7')
 time.sleep(1)
