@@ -22,10 +22,3 @@ txt = txt[0].split(' ')[2]
 # Open Notepad from Windows 10
 app2 = Application(backend='uia').start("notepad.exe")
 time.sleep(1)
-app2.Untitled.edit.type_keys(txt)
-time.sleep(1)
-# All {key code} are self explained
-keyboard.SendKeys('{ENTER}')
-app2.Untitled.edit.type_keys(u'Automate{SPACE}any{SPACE}Windows{SPACE}Application')
-keyboard.SendKeys('{ENTER}')
-app2.Untitled.edit.type_keys(u'BY...{ENTER}Python')
